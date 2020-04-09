@@ -1,0 +1,55 @@
+{
+  "Service": [
+    {
+      "id": 1,
+      "nameService": "Love & Care",
+      "status": "Luôn yêu thương và tận tình chăm sóc thú nuôi của các bạn như chính thú nuôi của chúng tôi,bởi chúng tôi biết mỗi 'hoàng thượng' đều như 1 thành viên trong gia đình của các bạn ^^.",
+      "serviceImgs": "../pethouse/libs/images/dogger_img_sm_3.jpg"
+    },
+    {
+      "id": 2,
+      "nameService": "Fearsome",
+      "status": "Sẽ không bao giờ có chuyện thú cưng của các bạn sẽ sợ hãi khi trở về từ Pet's House, bởi chúng tôi sẽ luôn tạo môi trường thân thiện và thoải mái tốt nhất như ở chính căn nhà của các bạn như cái tên của chúng tớ Pet's House.",
+      "serviceImgs": "../pethouse/libs/images/dogger_img_sm_1.jpg"
+    },
+    {
+      "id": 3,
+      "nameService": "Beautiful",
+      "status": "Muốn tỉa tót hay 'tút' lại sắc đẹp cho các 'hoàng thượng' thì lại càng yên tâm vì Pet's House chúng tớ luôn có những nhà 'tạo mẫu' nhiều năm trong nghề nha ^^.",
+      "serviceImgs": "../pethouse/libs/images/dogger_img_sm_2.jpg"
+    }
+  ],
+  "Person": [
+    {
+      "id": 1,
+      "namePerson": "Dr.Phi Thường",
+      "imgsPerson": "../pethouse/libs/images/person_4.jpg",
+      "statusPerson": "Tốt nghiệp chuyên ngành thú y với hơn 5 năm kinh nghiệm, từng làm việc ở nhiều phòng khám lớn nhỏ trong nước, chắc chắn sẽ không có bệnh nào của thú nuôi các bạn có thể làm khó được anh ấy rồi."
+    },
+    {
+      "id": 2,
+      "namePerson": "Dr.Hiệp",
+      "imgsPerson": "../pethouse/libs/images/person_2.jpg",
+      "statusPerson": "Tốt nghiệp chuyên ngành thú y cùng với 7 năm kinh nghiệm tại cách phòng khám ở Sài Gòn, từng học thêm khoa tâm lý thú cưng,có vẻ không cần bàn về độ bá đạo nữa đâu nhỉ ^^."
+    },
+    {
+      "id": 3,
+      "namePerson": "Stylist Hồng Ân",
+      "imgsPerson": "../pethouse/libs/images/person_1.jpg",
+      "statusPerson": "Từng đoạt giải Gold Stylist for Pet, và nhiều giải lớn nhỏ,hơn 4 năm trong nghề với nhiều shop pet lớn nhỏ riêng, bạn sẽ không thể yên tâm hơn khi con cưng của các bạn được tạo mẫu ở Pet'sHouse."
+    },
+    {
+      "namePerson": "Marketing Quang Duy",
+      "statusPerson": "Với Martketing-online từng du học ở Nhật 3 năm của chúng tôi, sẽ chẳng thể để các bạn khó chịu khi các bạn liên hệ để hỏi và đặt dịch vụ của chúng tớ đâu ha ^^.",
+      "imgsPerson": "../pethouse/libs/images/person_3.jpg",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "vshine94@gmail.com",
+      "password": "123456"
+    }
+  ]
+}

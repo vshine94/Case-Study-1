@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pet's House Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="../libs/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../libs/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../libs/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="../libs/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="../libs/css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('../libs/images/pet7.jpg');">
+			<div class="wrap-login100 p-t-30 p-b-50">
+				<span class="login100-form-title p-b-41">
+					Pet's House Login
+				</span>
+				<form id="formLogin" class="login100-form validate-form p-b-33 p-t-5">
+					<div id="errormsg" class="alert alert-danger alert-dismissible d-none">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+						Invalid Username or Password !
+					  </div>
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="username" id="username" placeholder="User name"
+							data-rule-required ="true" data-msg-required="Please Enter User name !">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<input class="input100" type="password" name="pass" id="pass" placeholder="Password"
+							data-rule-required="true" data-msg-required="Please Enter Password !">
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-32">
+						<a href="javascript:;" class="login100-form-btn" onclick="checkLogin()">
+							Login
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<script src="../libs/js/jquery-3.3.1.min.js"></script>
+	<script src="../libs/js/popper.min.js"></script>
+	<script src="../libs/js/bootstrap.min.js"></script>
+	<script src="../libs/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
