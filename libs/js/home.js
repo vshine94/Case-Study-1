@@ -2,7 +2,7 @@ var home = home || { }
 
 home.showService = function(){
     $.ajax({
-        url : "http://localhost:3000/Service",
+        url : "https://petshouse.herokuapp.com/Service",
         method : "GET",
         dataType : "json",
         success : function(data){
@@ -49,7 +49,7 @@ home.showService = function(){
 
 home.showPerson = function(){
     $.ajax({
-        url:"http://localhost:3000/Person",
+        url:"https://petshouse.herokuapp.com/Person",
         method:"GET",
         dataType:"json",
         success : function(data){

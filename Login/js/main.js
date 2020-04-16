@@ -90,7 +90,7 @@ function checkLogin(){
         let username = $('#username').val();
         let pass = $('#pass').val();
         $.ajax({
-            url : "http://localhost:3000/users",
+            url : "https://petshouse.herokuapp.com/users",
             method: "GET",
             dataType : "json",
             success : function(data){
